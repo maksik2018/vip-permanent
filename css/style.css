@@ -15,47 +15,153 @@
   --purple: rgba(154, 18, 179, 1);
 }
 
-/* .container {
-  max-width: 1200px;
-} */
-
-@media screen (max-width: 1200px) {
-  .container { 
-    width: 960px;
-  }
+.container {
+ max-width: 1200px;
 }
+
+
 
 @media screen (max-width: 480px) {
 
   .container { 
-    width: 320px;
+   max-width: 50%;
   }
 
-  p { 
-    width: 120px;
+  .hero .container {
+    /* padding-left: 215px;
+    padding-top: 125px; */
+      width: 320px;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: linear-gradient(
+        to right,
+      rgba(47, 48, 58, 0.7),
+      rgba(47, 48, 58 ,0.7)),
+        url(../images/fon_brow.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+  }
+  .contacts-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  h1, h2, h3 {
-    width: 120px;
+  .nav-list li {
+    margin-left: 10px;
   }
-
-  header { 
-    width: 120px;
+  .contacts-list li:not(:last-child) {
+    margin-right: 10px;
   }
-
-  div { 
-    width: 120px;
-  }
-
-  img { 
-    width: 320px;
-  }
-
-  footer {
-    width: 320px;
-  }
-
+  .link-icon {
+    width: 15px;
+    height: 15px;
+    /* background: var(--graphite-light); */
+    background: #cc2557;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    fill:whitesmoke;
+    transition: fill 350ms linear;
+    }
+    .master {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+    }
+    .about-images {
+      display: flex;
+      margin-right: 24px;
+      width: 40%;
+    }
+    
+    .about-images li:first-child {
+      margin-right: 10px;
+    }
+    .table {
+      border: 1px solid var(--grey-text);
+      padding: 10px 10px;
+      width: 50%;
+    }
+    .showlist li {
+      width: 85px;
+      height: 67px;
+    }
+    
+    .showlist li:nth-child(2n + 1) {
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    
+    .showlist li:nth-child(2n) {
+      /* margin-right: 30px; */
+      margin-top: 15px;
+    }
+    .oldschool-content {
+      display: flex;
+      flex-flow: column;
+      width: 320px;
+    }
+    .pretitle {
+      display: flex;
+      align-items: center;
+    
+      font-weight: 600;
+      font-size: 8px;
+      line-height: 1.36;
+    
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    .pretitle::before {
+      display: inline-block;
+      content: '';
+      width: 60px;
+      height: 1px;
+      background-color: var(--graphite);
+    
+      margin-right: 20px;
+    }
+    
+    /* переназначаем шрифт для заголовков секций через общий класс */
+    .title {
+      margin: 20px 0;
+    
+      font-family: 'Raleway', sans-serif;
+      font-size: 22px;
+      line-height: 1.17;
+      letter-spacing: 0.05em;
+    }
+    
+    /* общие стили для всех предзаголовков */
+    .short-desc {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.67;
+    
+      letter-spacing: 0.02em;
+    }
+    .hero-title {
+      font-size: 30px;
+      line-height: 1.181;
+    
+      letter-spacing: 0.05em;
+    
+      color: var(--white-text);
+      color: rgb(177, 14, 122);
+    }
+    
+    
+  
 }
+
+  
 
 /* ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
 

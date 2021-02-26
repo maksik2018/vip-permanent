@@ -71,28 +71,6 @@ a {
   letter-spacing: 0.02em;
 }
 
-/* .online-sign {
-  border: 1px solid #ff6c00;
-  border-radius: 25px;
-
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
-  background: transparent;
-  color: var(--white-text);
-
-  padding: 12px 20px;
-}
-
-.online-sign:hover,
-.online-sign:focus {
-  background-color: var(--orange);
-  color: var(--white-text);
-} */
-
 .media-list {
   display: flex;
   align-items: center;
@@ -255,9 +233,9 @@ a {
     margin-right: auto;
     background-image: linear-gradient(
       to right,
-    rgba(47, 48, 58, 0.6),
-    rgba(47, 48, 58 ,0.6)),
-      url(../images/photo/pigments.jpg);
+    rgba(47, 48, 58, 0.7),
+    rgba(47, 48, 58 ,0.7)),
+      url(../images/fon_brow.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

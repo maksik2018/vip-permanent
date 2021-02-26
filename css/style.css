@@ -15,6 +15,48 @@
   --purple: rgba(154, 18, 179, 1);
 }
 
+/* .container {
+  max-width: 1200px;
+} */
+
+@media screen (max-width: 1200px) {
+  .container { 
+    width: 960px;
+  }
+}
+
+@media screen (max-width: 480px) {
+
+  .container { 
+    width: 320px;
+  }
+
+  p { 
+    width: 120px;
+  }
+
+  h1, h2, h3 {
+    width: 120px;
+  }
+
+  header { 
+    width: 120px;
+  }
+
+  div { 
+    width: 120px;
+  }
+
+  img { 
+    width: 320px;
+  }
+
+  footer {
+    width: 320px;
+  }
+
+}
+
 /* ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
 
 /* применяем основное семейство шрифтов для всего документа и ссылок */
@@ -24,7 +66,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -260,7 +302,7 @@ a {
   letter-spacing: 0.05em;
 
   color: var(--white-text);
-  color: rgba(154, 18, 179, 1);
+  color: rgb(177, 14, 122);
 }
 
 .hero-desc {

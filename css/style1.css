@@ -24,7 +24,7 @@
 @media screen (max-width: 480px) {
 
   .container { 
-   max-width: 50%;
+   width: 320px;
   }
 
   .hero .container {
